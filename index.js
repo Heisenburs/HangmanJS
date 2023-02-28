@@ -1,19 +1,11 @@
-// - Click on start [button]
-// Brings you to play screen
+// START SCREEN => title , start , subtitle
+// - Click on start button => Brings you to play screen
+
 // 3 Category [button]
 // Generate word randomly from an array?
-// Coding
-// JAVASCRIPT
-// REACT
-// MERN STACK
-// Movies
-// MULAN
-// NEW JACK CITY
-// TWILIGHT
-// Locations
-// AMSTERDAM
-// BOSTON
-// COSTA RICA
+// Coding => JAVASCRIPT , REACT , MERN STACK
+// Movies => MULAN , NEW JACK CITY , TWILIGHT
+// Locations => AMSTERDAM , BOSTON , COSTA RICA
 
 // Alphabet at the bottom
 // If you click on a letter
