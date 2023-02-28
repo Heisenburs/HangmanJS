@@ -107,6 +107,10 @@ let letterChoices = [
 ];
 
 for (let letter of letterChoices) {
+  //create an element (p or button)
+  let letter = document.createElement("button");
+  // apend letters to letter-body
+  body.append(letter);
   console.log(letter);
 }
 
