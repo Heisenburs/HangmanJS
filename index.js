@@ -37,18 +37,27 @@ moviesCategory.innerText = "MOVIES";
 console.log(moviesCategory);
 body.appendChild(moviesCategory);
 
-const placesCategory = document.createElement("button");
-placesCategory.innerText = "LOCATIONS";
+const locationCategory = document.createElement("button");
+locationCategory.innerText = "LOCATIONS";
 
-console.log(placesCategory);
-body.appendChild(placesCategory);
+console.log(locationCategory);
+body.appendChild(locationCategory);
 
 // Generate word randomly from an array?
 
 // Coding => JAVASCRIPT , REACT , MERN STACK
-// Movies => MULAN , NEW JACK CITY , TWILIGHT
-// Locations => AMSTERDAM , BOSTON , COSTA RICA
 
+let codingChoices = ["javascript", "react", "mern stack"];
+
+// Movies => MULAN , NEW JACK CITY , TWILIGHT
+let movieChoices = ["Mulan", "New Jack City", "Twilight"];
+
+// Locations => AMSTERDAM , BOSTON , COSTA RICA
+let locationChoices = ["Amsterdam", "Boston", "Costa Rica"];
+
+console.log(codingChoices);
+console.log(movieChoices);
+console.log(locationChoices);
 // Alphabet at the bottom
 
 // If you click on a letter
