@@ -25,7 +25,26 @@ body.appendChild(codedBy);
 // - Click on start button => Brings you to play screen
 
 // 3 Category [button]
+const codingCategory = document.createElement("button");
+codingCategory.innerText = "CODING";
+
+console.log(codingCategory);
+body.appendChild(codingCategory);
+
+const moviesCategory = document.createElement("button");
+moviesCategory.innerText = "MOVIES";
+
+console.log(moviesCategory);
+body.appendChild(moviesCategory);
+
+const placesCategory = document.createElement("button");
+placesCategory.innerText = "LOCATIONS";
+
+console.log(placesCategory);
+body.appendChild(placesCategory);
+
 // Generate word randomly from an array?
+
 // Coding => JAVASCRIPT , REACT , MERN STACK
 // Movies => MULAN , NEW JACK CITY , TWILIGHT
 // Locations => AMSTERDAM , BOSTON , COSTA RICA
