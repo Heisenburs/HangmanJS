@@ -8,7 +8,7 @@ Technologies Used:
 Approach:
 
 - Pseudocode
-- Wireframe
+- Wireframe (canva)
 
 Live Site Link:
 Installation Instructions:

@@ -1,4 +1,27 @@
-// START SCREEN => title , start , subtitle
+// START SCREEN => title , start , small 'coded by'
+const body = document.querySelector("body");
+
+//* Title
+const titleCard = document.createElement("h1");
+titleCard.innerText = "HANGMAN";
+
+console.log(titleCard);
+
+body.appendChild(titleCard);
+
+//* Start Button
+const startBtn = document.createElement("button");
+startBtn.innerText = "S T A R T";
+
+console.log(startBtn);
+body.appendChild(startBtn);
+
+//* 'Coded By'
+const codedBy = document.createElement("small");
+codedBy.innerText = "coded by heisenburs";
+
+console.log(codedBy);
+body.appendChild(codedBy);
 // - Click on start button => Brings you to play screen
 
 // 3 Category [button]
@@ -8,6 +31,7 @@
 // Locations => AMSTERDAM , BOSTON , COSTA RICA
 
 // Alphabet at the bottom
+
 // If you click on a letter
 // It will check to see if it fills a blank
 // After you click the letter, it is hidden
