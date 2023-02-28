@@ -60,13 +60,45 @@ console.log(movieChoices);
 console.log(locationChoices);
 // Alphabet at the bottom
 
+let letterChoices = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z",
+];
+
+for (let letter of letterChoices) {
+  console.log(letter);
+}
+
 // If you click on a letter
 // It will check to see if it fills a blank
 // After you click the letter, it is hidden
 // If it does, the letter will fill the blank
 // If not, a piece of the hangman will appear
-// Repeats until
-// All blanks are filled
+// Repeats until all blanks are filled
 // If all blanks are filled before man is completely hanged
 // Alert: You have won!
 // All pieces of the hanged man have appeared
