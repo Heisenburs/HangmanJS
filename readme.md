@@ -1,4 +1,4 @@
-# ================ HANGMAN ===============
+# ===== HANGMAN =====
 
 ## coded by @heisenburs
 
