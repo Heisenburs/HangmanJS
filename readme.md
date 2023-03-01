@@ -1,4 +1,7 @@
-// ================ HANGMAN coded by @heisenburs ===============
+# ================ HANGMAN ===============
+
+## coded by @heisenburs
+
 Technologies Used:
 
 - HTML

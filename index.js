@@ -120,11 +120,14 @@ for (let letter of letterChoices) {
   console.log(btn);
 }
 
-// If you click on a letter
-// It will check to see if it fills a blank
+// If you click on a letter => it will check to see if it fills a blank
 // After you click the letter, it is hidden
 // If it does, the letter will fill the blank
-// If not, a piece of the hangman will appear
+// If not, a piece of the hangman will
+
+// Have the letters of the keyword show, but hidden => if the correct letter is pressed, the letter in the keyword will show
+// if the incorrect letter is pressed, a piece of the hangman will appear
+
 // Repeats until all blanks are filled
 // If all blanks are filled before man is completely hanged
 // Alert: You have won!
