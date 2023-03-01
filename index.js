@@ -1,29 +1,29 @@
 // START SCREEN => title , start , small 'coded by'
 const body = document.querySelector("body");
 
-//! translate to html start screen
-//* Title
-const titleCard = document.createElement("h1");
-titleCard.innerText = "HANGMAN";
-titleCard.classList.add("heading");
+// //! translate to html start screen
+// //* Title
+// const titleCard = document.createElement("h1");
+// titleCard.innerText = "HANGMAN";
+// titleCard.classList.add("heading");
 
-console.log(titleCard);
+// console.log(titleCard);
 
-body.appendChild(titleCard);
+// body.appendChild(titleCard);
 
-//* Start Button
-const startBtn = document.createElement("button");
-startBtn.innerText = "S T A R T";
+// //* Start Button
+// const startBtn = document.createElement("button");
+// startBtn.innerText = "S T A R T";
 
-console.log(startBtn);
-body.appendChild(startBtn);
+// console.log(startBtn);
+// body.appendChild(startBtn);
 
-//* 'Coded By'
-const codedBy = document.createElement("small");
-codedBy.innerText = "coded by heisenburs";
+// //* 'Coded By'
+// const codedBy = document.createElement("small");
+// codedBy.innerText = "coded by heisenburs";
 
-console.log(codedBy);
-body.appendChild(codedBy);
+// console.log(codedBy);
+// body.appendChild(codedBy);
 // - Click on start button => Brings you to play screen
 
 //! can be translated to html as well
