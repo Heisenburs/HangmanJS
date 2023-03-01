@@ -55,9 +55,25 @@ codingCategory.addEventListener("click", () => {
 
   // the randomly generated word goes into the <p> tag
   let codKey = document.querySelector(".keyword");
+
+  let codingArr = [];
+
+  // loops through created array
+  for (let i = 0; i < codingKey.length; i++) {
+    // create span element
+    let span = document.createElement("span");
+    span.textContent = "_";
+    codKey.appendChild(span);
+    // adds "_" to the new array
+    codingArr.push("_");
+  }
+
+  console.log(codingKey);
+  console.log(codingArr);
   codKey.innerText = codingKey;
   // at first, the keyword is hidden
   // let hiddenword = codingKey;
+  let hiddenword = codKey;
 });
 
 moviesCategory.addEventListener("click", () => {

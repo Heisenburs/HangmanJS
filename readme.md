@@ -24,3 +24,4 @@ Resources:
 - https://herewecode.io/blog/get-random-element-array-javascript/
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - https://stackoverflow.com/questions/65990379/how-to-make-a-button-inside-of-the-anchor-tag-clickable-in-react#:~:text=It%20works%20with%20both%20%3CLink,tag%20and%20it%20is%20clickable.
+- https://www.w3schools.com/howto/howto_js_toggle_text.asp
