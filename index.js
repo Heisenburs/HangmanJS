@@ -110,23 +110,23 @@ let letterChoices = [
 ];
 
 for (let letter of letterChoices) {
-  //! buttons are missing their value
   //create an element (p or button)
   let btn = document.createElement("button");
-  btn.innerText = letter;
-  // apend letters to letter-body
-  body.append(btn);
   // set value of buttons to their value in the array
-  console.log(btn);
+  btn.innerText = letter;
+  // append letters to letter-body
+  body.append(btn);
 }
+
+// when you click on a category => random keyword is chosen but appears hidden (empty div with a nested p or h3(?))
+
+// Have the letters of the keyword show, but hidden => if the correct letter is pressed, the letter in the keyword will show
+// if the incorrect letter is pressed, a piece of the hangman will appear
 
 // If you click on a letter => it will check to see if it fills a blank
 // After you click the letter, it is hidden
 // If it does, the letter will fill the blank
-// If not, a piece of the hangman will
-
-// Have the letters of the keyword show, but hidden => if the correct letter is pressed, the letter in the keyword will show
-// if the incorrect letter is pressed, a piece of the hangman will appear
+// If not, a piece of the hangman will appear
 
 // Repeats until all blanks are filled
 // If all blanks are filled before man is completely hanged
