@@ -65,19 +65,30 @@ codingCategory.addEventListener("click", () => {
     span.textContent = "_";
     codKey.appendChild(span);
     // adds "_" to the new array
-    codingArr.push("_");
+    codingArr.push(" _ ");
   }
 
   console.log(codingKey);
   console.log(codingArr);
-  codKey.innerText = codingKey;
+  codKey.innerText = codingArr;
 });
 
 moviesCategory.addEventListener("click", () => {
   let movieKey = movieChoices[Math.floor(Math.random() * movieChoices.length)];
 
   let movKey = document.querySelector(".keyword");
-  movKey.innerText = movieKey;
+  let movieArr = [];
+
+  for (let i = 0; i < movieKey.length; i++) {
+    let span = document.createElement("span");
+    span.textContent = "_";
+    movKey.appendChild(span);
+    movieArr.push(" _ ");
+  }
+
+  console.log(movieKey);
+  console.log(movieArr);
+  movKey.innerText = movieArr;
 });
 
 locationCategory.addEventListener("click", () => {
@@ -100,8 +111,6 @@ let locationChoices = ["Amsterdam", "Boston", "Costa Rica"];
 console.log(codingChoices);
 console.log(movieChoices);
 console.log(locationChoices);
-
-// when you click on a category, a random category choice will be selected
 
 // Alphabet at the bottom
 
