@@ -1,9 +1,8 @@
-/* body {
-  display: flex;
+body {
+  margin: auto;
+  text-align: center;
+  padding: 150px;
 }
-h1 {
-justify-content: ;
+small {
+  padding: 50px;
 }
-.hidden {
-  display: none;
-} */
