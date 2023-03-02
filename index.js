@@ -28,20 +28,20 @@ const body = document.querySelector("body");
 
 //! can be translated to html as well
 // 3 Category [button]
-const codingCategory = document.createElement("button");
-codingCategory.innerText = "CODING";
+const codingCategory = document.querySelector(".codingCategory");
+// codingCategory.innerText = "CODING";
 
 console.log(codingCategory);
 body.appendChild(codingCategory);
 
-const moviesCategory = document.createElement("button");
-moviesCategory.innerText = "MOVIES";
+const moviesCategory = document.querySelector(".moviesCategory");
+// moviesCategory.innerText = "MOVIES";
 
 console.log(moviesCategory);
 body.appendChild(moviesCategory);
 
-const locationCategory = document.createElement("button");
-locationCategory.innerText = "LOCATIONS";
+const locationCategory = document.querySelector(".locationCategory");
+// locationCategory.innerText = "LOCATIONS";
 
 console.log(locationCategory);
 body.appendChild(locationCategory);
