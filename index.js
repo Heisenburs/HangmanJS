@@ -71,9 +71,6 @@ codingCategory.addEventListener("click", () => {
   console.log(codingKey);
   console.log(codingArr);
   codKey.innerText = codingKey;
-  // at first, the keyword is hidden
-  // let hiddenword = codingKey;
-  let hiddenword = codKey;
 });
 
 moviesCategory.addEventListener("click", () => {
