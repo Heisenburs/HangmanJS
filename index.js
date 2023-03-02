@@ -164,7 +164,27 @@ for (let letter of letterChoices) {
   body.append(btn);
 }
 
+//create function
+function listenForMatch(char) {
+  btn.addEventListener("click", () => {
+    console.log(btn.listenForMatch());
+  });
+  //for loop thats grabs word in choices array
+  for (let i = 0; i < locationArr.length; i++) {
+    // for loop grapbs each letter in the selected word
+    for (let j = 0; j < i.length; j++) {
+      if (char === j) {
+        i[j] = char;
+      }
+    }
+  }
+  // addEventListener("click", () => {
+
+  // })
+}
+
 // Have the letters of the keyword show, but hidden => if the correct letter is pressed, the letter in the keyword will show
+
 // if the incorrect letter is pressed, a piece of the hangman will appear
 
 // If you click on a letter => it will check to see if it fills a blank

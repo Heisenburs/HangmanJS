@@ -28,6 +28,8 @@ Next Update:
 #### CSS:
 
 - https://blog.hubspot.com/website/center-text-in-css#:~:text=To%20center%20text%20in%20CSS%2C%20use%20the%20text%2Dalign%20property,case%2Dby%2Dcase%20basis.
+- https://stackoverflow.com/questions/10312857/blue-and-purple-default-links-how-to-remove
+- https://stackoverflow.com/questions/2444894/how-to-set-background-image-in-submit-button
 
 #### JS:
 
@@ -38,3 +40,4 @@ Next Update:
 
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - https://github.com/Ileriayo/markdown-badges
+- https://github.com/othneildrew/Best-README-Template
