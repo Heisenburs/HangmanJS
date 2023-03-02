@@ -16,7 +16,8 @@ button {
   background-color: black;
   font-size: 20px;
   font-family: "Press Start 2P", cursive;
-  padding: 10px;
+  padding: 18px;
+  border-radius: 25px;
 }
 
 button:hover {
@@ -31,6 +32,7 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+
 small {
   font-family: "Press Start 2P", cursive;
 }
