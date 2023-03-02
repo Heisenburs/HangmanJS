@@ -94,8 +94,20 @@ moviesCategory.addEventListener("click", () => {
 locationCategory.addEventListener("click", () => {
   let locationKey =
     locationChoices[Math.floor(Math.random() * locationChoices.length)];
+
   let locKey = document.querySelector(".keyword");
-  locKey.innerText = locationKey;
+  let locationArr = [];
+
+  for (let i = 0; i < locationKey.length; i++) {
+    let span = document.createElement("span");
+    span.textContent = "_";
+    locKey.appendChild(span);
+    locationArr.push(" _ ");
+  }
+
+  console.log(locationKey);
+  console.log(locationArr);
+  locKey.innerText = locationArr;
 });
 
 // Coding => JAVASCRIPT , REACT , MERN STACK

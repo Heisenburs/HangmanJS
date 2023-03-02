@@ -12,6 +12,7 @@ Approach:
 
 - Pseudocode
 - Wireframe (canva)
+- JavaScript first! (Needed the logic to work before I worried about the design.)
 
 Live Site Link:
 Installation Instructions:
