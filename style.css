@@ -3,6 +3,10 @@ body {
   text-align: center;
   padding: 150px;
 }
-small {
+h1 {
+  font-family: "Press Start 2P", cursive;
+}
+
+.codedby {
   padding: 50px;
 }

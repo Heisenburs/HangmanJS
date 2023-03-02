@@ -37,3 +37,4 @@ Next Update:
 #### Readme.MD
 
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- https://github.com/Ileriayo/markdown-badges
