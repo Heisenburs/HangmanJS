@@ -66,8 +66,63 @@ img {
   height: 80px;
   width: 80px;
   border-radius: 50px;
-  /* margin: 0 auto; */
-  position: relative;
-  top: -420px;
-  left: 1366px;
+  position: absolute;
+  top: 15rem;
+  left: 56.6rem;
 }
+.hangman-body {
+  background-color: maroon;
+  height: 160px;
+  width: 20px;
+  position: absolute;
+  top: 19.5rem;
+  left: 58.5rem;
+  border-radius: 30px;
+}
+
+.hangman-left-arm {
+  background-color: maroon;
+  height: 59px;
+  width: 15px;
+  position: absolute;
+  top: 20.4rem;
+  left: 57.3rem;
+  transform: rotate(35deg);
+  border-radius: 30px;
+}
+
+.hangman-right-arm {
+  background-color: maroon;
+  height: 59px;
+  width: 15px;
+  position: absolute;
+  top: 20.4rem;
+  left: 60rem;
+  transform: rotateZ(-35deg);
+  border-radius: 30px;
+}
+
+.hangman-left-leg {
+  background-color: maroon;
+  height: 64px;
+  width: 15px;
+  position: absolute;
+  top: 28.4rem;
+  left: 57.5rem;
+  transform: rotate(35deg);
+  border-radius: 30px;
+}
+.hangman-right-leg {
+  background-color: maroon;
+  height: 64px;
+  width: 15px;
+  position: absolute;
+  top: 28.4rem;
+  left: 59.9rem;
+  transform: rotateZ(-35deg);
+  border-radius: 30px;
+}
+
+/* to rotate div: transform: rotate(#deg) */
+/* left: rotate: 30deg */
+/* right: rotate: z -30deg */

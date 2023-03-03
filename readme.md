@@ -31,7 +31,8 @@ Next Update:
 - https://stackoverflow.com/questions/10312857/blue-and-purple-default-links-how-to-remove
 - https://stackoverflow.com/questions/2444894/how-to-set-background-image-in-submit-button
 - https://blog.hubspot.com/website/comment-out-in-css#:~:text=To%20comment%20in%20CSS%2C%20simply,rendered%20on%20the%20front%20end.&text=You%20can%20also%20format%20them,%2F*%20These%20words%E2%80%A6
-- https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css
+- https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css -https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
+- https://www.w3schools.com/cssref/playdemo.php?filename=playcss_rotate
 
 #### JS:
 
