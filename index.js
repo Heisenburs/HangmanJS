@@ -162,6 +162,20 @@ for (let letter of letterChoices) {
   // append letters to letter-body
   body.append(btn);
   btn.classList.add("btn");
+
+  function check(char) {
+    btn.addEventListener("click", () => {
+      btn.check();
+    });
+
+    for (let i = 0; i < letterChoices.length; i++) {
+      for (let j = 0; j < i.length; j++) {
+        if (char === j) {
+          console.log(char);
+        }
+      }
+    }
+  }
 }
 
 //create function
@@ -229,7 +243,19 @@ for (let piece of hangmanArr) {
 
 //click button => loop through each letter and check to see if the value of the button matches the letter that is being checked => if it matches, it will fill in, if it doesnt match, a piece of the stick figure will show (loop through pieces array?)
 
-function check() {}
+// function check(char) {
+//   btn.addEventListener("click", () => {
+//     btn.check();
+//   });
+
+//   for (let i = 0; i < locKey.length; i++) {
+//     for (let j = 0; j < i.length; j++) {
+//       if (char === j) {
+//         console.log(char);
+//       }
+//     }
+//   }
+// }
 
 // function listenForMatch(char) {btn.addEventListener("click", () => {
 //     console.log(btn.listenForMatch());

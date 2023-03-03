@@ -14,7 +14,10 @@ Approach:
 - Wireframe (canva)
 - JavaScript first! (Needed the logic to work before I worried about the design.)
 
-Live Site Link:
+### Live Site Link:
+
+Link (https://heisenburs.github.io/HangmanJS/)
+
 Installation Instructions:
 Unresolved:
 Next Update:
@@ -33,6 +36,7 @@ Next Update:
 - https://blog.hubspot.com/website/comment-out-in-css#:~:text=To%20comment%20in%20CSS%2C%20simply,rendered%20on%20the%20front%20end.&text=You%20can%20also%20format%20them,%2F*%20These%20words%E2%80%A6
 - https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css -https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
 - https://www.w3schools.com/cssref/playdemo.php?filename=playcss_rotate
+- https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
 
 #### JS:
 
