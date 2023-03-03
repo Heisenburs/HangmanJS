@@ -164,25 +164,28 @@ for (let letter of letterChoices) {
   btn.classList.add("btn");
 
   btn.onclick = () => {
-    console.log(btn.innerHTML);
+    console.log(btn.innerText);
   };
-
-  // function check(char) {
-  //   btn.addEventListener("click", () => {
-  //     btn.check();
-  //   });
-
-  //   for (let i = 0; i < letterChoices.length; i++) {
-  //     for (let j = 0; j < i.length; j++) {
-  //       if (char === j) {
-  //         console.log(char);
-  //       }
-  //     }
-  //   }
-  // }
 }
+// function check() {
+//   for (let i = 0; i < letterChoices.length; i++) {
+//     for (let j = 0; j < i.length; j++) {
+//       if (char === j) {
+//         console.log(char);
+//       }
+//     }
+//   }
+// }
+//gets buttons to log their value
+
+//
+//   btn.addEventListener("click", () => {
+//     btn.check();
+//   });
 
 //create function
+//includes()
+//.indexOf()
 
 // addEventListener("click", () => {
 
@@ -271,3 +274,27 @@ for (let piece of hangmanArr) {
 //       }
 //     }}
 //   });
+
+//Ashleys Hangman Code
+// //function to remove flowers only if the letter is incorrect
+//function handleClick(e) {
+
+//* letter if not found remove a flower
+//if(amountOfChances<1){
+//    confirm("Oh no! You Lose!")
+//}else{
+
+//   if (mysteryWord.toUpperCase().includes(e.target.innerHTML) == true) {
+//Update the Array to change letter from underscore
+
+//    } else {
+//        let flowers = document.querySelectorAll('.littleflower')
+//        amountOfChances-=1
+//        flowers[flowers.length - 1].remove()
+//
+//        console.log(flowers)
+//        console.log(flowers.length)
+//        console.log(amountOfChances)
+//    }
+//}
+//
