@@ -2,13 +2,13 @@
 
 ## coded by @heisenburs
 
-Technologies Used:
+### Technologies Used:
 
 - HTML
 - CSS
 - JavaScript
 
-Approach:
+### Approach:
 
 - Pseudocode
 - Wireframe (canva)
@@ -18,8 +18,10 @@ Approach:
 
 [Link] (https://heisenburs.github.io/HangmanJS/)
 
-Installation Instructions:
-Unresolved:
+### Installation Instructions:
+
+### Unresolved:
+
 Next Update:
 
 ### Resources:
