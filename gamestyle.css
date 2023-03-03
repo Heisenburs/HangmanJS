@@ -60,3 +60,14 @@ img {
   padding: 70px;
   height: 400px;
 }
+
+.hangman-head {
+  background-color: maroon;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  /* margin: 0 auto; */
+  position: relative;
+  top: -420px;
+  left: 1366px;
+}
