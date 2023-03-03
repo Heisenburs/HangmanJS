@@ -163,19 +163,23 @@ for (let letter of letterChoices) {
   body.append(btn);
   btn.classList.add("btn");
 
-  function check(char) {
-    btn.addEventListener("click", () => {
-      btn.check();
-    });
+  btn.onclick = () => {
+    console.log(btn.innerHTML);
+  };
 
-    for (let i = 0; i < letterChoices.length; i++) {
-      for (let j = 0; j < i.length; j++) {
-        if (char === j) {
-          console.log(char);
-        }
-      }
-    }
-  }
+  // function check(char) {
+  //   btn.addEventListener("click", () => {
+  //     btn.check();
+  //   });
+
+  //   for (let i = 0; i < letterChoices.length; i++) {
+  //     for (let j = 0; j < i.length; j++) {
+  //       if (char === j) {
+  //         console.log(char);
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 //create function

@@ -16,7 +16,7 @@ Approach:
 
 ### Live Site Link:
 
-Link (https://heisenburs.github.io/HangmanJS/)
+[Link] (https://heisenburs.github.io/HangmanJS/)
 
 Installation Instructions:
 Unresolved:
