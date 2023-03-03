@@ -5,3 +5,38 @@ body {
   font-size: 15px;
   font-family: "Press Start 2P", cursive;
 }
+
+#category-header {
+  font-size: 22px;
+  font-family: "Press Start 2P", cursive;
+  padding: 25px;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#coding,
+#movies,
+#locations {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  padding: 15px;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+#coding:hover,
+#movies:hover,
+#locations:hover {
+  background-image: url("media/bloody\ background.jpg");
+}
+
+img {
+  margin-right: 520px;
+  padding: 50px;
+  size: 200px;
+}

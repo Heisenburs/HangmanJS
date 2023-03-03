@@ -26,7 +26,6 @@ const body = document.querySelector("body");
 // body.appendChild(codedBy);
 // - Click on start button => Brings you to play screen
 
-//! can be translated to html as well
 // 3 Category [button]
 const codingCategory = document.querySelector(".codingCategory");
 // codingCategory.innerText = "CODING";

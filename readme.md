@@ -36,6 +36,7 @@ Next Update:
 
 - https://www.w3schools.com/howto/howto_js_toggle_text.asp
 - https://herewecode.io/blog/get-random-element-array-javascript/
+- https://www.w3schools.com/jsref/prop_style_fontfamily.asp
 
 #### Readme.MD
 
