@@ -200,6 +200,46 @@ function listenForMatch(char) {
 // Alert: LOSER!
 // (Tony todd laugh?)
 
-//2nd variable
-//hidden word => underscore for every variable =>
-//for loop letter => underscore
+//click button => loop through each letter and check to see if the value of the button matches the letter that is being checked => if it matches, it will fill in, if it doesnt match, a piece of the stick figure will show (loop through pieces array?)
+
+const hangmanArr = [];
+
+const head = document.querySelector(".hangman-head");
+
+hangmanArr.push(head);
+
+const stickbody = document.querySelector(".hangman-body");
+
+hangmanArr.push(stickbody);
+
+const leftarm = document.querySelector(".hangman-left-arm");
+
+hangmanArr.push(leftarm);
+
+const rightarm = document.querySelector(".hangman-right-arm");
+
+hangmanArr.push(rightarm);
+
+const leftleg = document.querySelector(".hangman-left-leg");
+
+hangmanArr.push(leftleg);
+
+const rightleg = document.querySelector(".hangman-right-leg");
+
+hangmanArr.push(rightleg);
+
+const leftfoot = document.querySelector(".hangman-left-foot");
+
+hangmanArr.push(leftfoot);
+
+const rightfoot = document.querySelector(".hangman-right-foot");
+
+hangmanArr.push(rightfoot);
+
+console.log(hangmanArr);
+
+for (let piece of hangmanArr) {
+  piece.hidden = true;
+}
+
+function check() {}
