@@ -161,6 +161,7 @@ for (let letter of letterChoices) {
   btn.innerText = letter;
   // append letters to letter-body
   body.append(btn);
+  btn.classList.add("btn");
 }
 
 //create function

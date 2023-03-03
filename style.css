@@ -5,23 +5,28 @@ body {
 }
 h1 {
   font-family: "Press Start 2P", cursive;
-  font-size: 60px;
+  font-size: 100px;
 }
 
 .codedby {
   padding: 50px;
+  margin-top: 300px;
 }
 button {
   color: white;
   background-color: black;
-  font-size: 20px;
+  font-size: 31px;
   font-family: "Press Start 2P", cursive;
-  padding: 18px;
+  padding: 30px;
   border-radius: 25px;
+  margin-top: 70px;
 }
 
 button:hover {
   background-image: url("media/bloody\ background.jpg");
+}
+
+.startbutton {
 }
 
 a {
