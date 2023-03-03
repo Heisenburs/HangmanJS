@@ -165,23 +165,10 @@ for (let letter of letterChoices) {
 }
 
 //create function
-function listenForMatch(char) {
-  btn.addEventListener("click", () => {
-    console.log(btn.listenForMatch());
-  });
-  //for loop thats grabs word in choices array
-  for (let i = 0; i < locationArr.length; i++) {
-    // for loop grapbs each letter in the selected word
-    for (let j = 0; j < i.length; j++) {
-      if (char === j) {
-        i[j] = char;
-      }
-    }
-  }
-  // addEventListener("click", () => {
 
-  // })
-}
+// addEventListener("click", () => {
+
+// })
 
 // Have the letters of the keyword show, but hidden => if the correct letter is pressed, the letter in the keyword will show
 
@@ -199,8 +186,6 @@ function listenForMatch(char) {
 //-- If the man is completely hanged before all blanks are filled
 // Alert: LOSER!
 // (Tony todd laugh?)
-
-//click button => loop through each letter and check to see if the value of the button matches the letter that is being checked => if it matches, it will fill in, if it doesnt match, a piece of the stick figure will show (loop through pieces array?)
 
 const hangmanArr = [];
 
@@ -242,4 +227,17 @@ for (let piece of hangmanArr) {
   piece.hidden = true;
 }
 
+//click button => loop through each letter and check to see if the value of the button matches the letter that is being checked => if it matches, it will fill in, if it doesnt match, a piece of the stick figure will show (loop through pieces array?)
+
 function check() {}
+
+// function listenForMatch(char) {btn.addEventListener("click", () => {
+//     console.log(btn.listenForMatch());
+//   for (let i = 0; i < locationArr.length; i++) {
+//     // for loop grapbs each letter in the selected word
+//     for (let j = 0; j < i.length; j++) {
+//       if (char === j) {
+//         i[j] = char;
+//       }
+//     }}
+//   });

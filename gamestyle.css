@@ -33,6 +33,7 @@ body {
 #movies:hover,
 #locations:hover {
   background-image: url("media/bloody\ background.jpg");
+  cursor: pointer;
 }
 
 #locations {
@@ -52,6 +53,7 @@ body {
 
 .btn:hover {
   background-image: url("media/bloody\ background.jpg");
+  cursor: pointer;
 }
 /* HangMan */
 

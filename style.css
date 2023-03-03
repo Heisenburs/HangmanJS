@@ -24,9 +24,7 @@ button {
 
 button:hover {
   background-image: url("media/bloody\ background.jpg");
-}
-
-.startbutton {
+  cursor: pointer;
 }
 
 a {
@@ -36,6 +34,7 @@ a {
 a:visited {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 small {
