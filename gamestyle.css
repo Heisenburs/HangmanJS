@@ -58,7 +58,7 @@ body {
 img {
   margin-right: 190px;
   padding: 70px;
-  height: 400px;
+  height: 412px;
 }
 
 .hangman-head {
@@ -67,7 +67,7 @@ img {
   width: 80px;
   border-radius: 50px;
   position: absolute;
-  top: 15rem;
+  top: 16rem;
   left: 56.6rem;
 }
 .hangman-body {
@@ -75,7 +75,7 @@ img {
   height: 160px;
   width: 20px;
   position: absolute;
-  top: 19.5rem;
+  top: 20.5rem;
   left: 58.5rem;
   border-radius: 30px;
 }
@@ -85,7 +85,7 @@ img {
   height: 59px;
   width: 15px;
   position: absolute;
-  top: 20.4rem;
+  top: 21.4rem;
   left: 57.3rem;
   transform: rotate(35deg);
   border-radius: 30px;
@@ -96,7 +96,7 @@ img {
   height: 59px;
   width: 15px;
   position: absolute;
-  top: 20.4rem;
+  top: 21.4rem;
   left: 60rem;
   transform: rotateZ(-35deg);
   border-radius: 30px;
@@ -107,7 +107,7 @@ img {
   height: 64px;
   width: 15px;
   position: absolute;
-  top: 28.4rem;
+  top: 29.4rem;
   left: 57.5rem;
   transform: rotate(35deg);
   border-radius: 30px;
@@ -117,7 +117,7 @@ img {
   height: 64px;
   width: 15px;
   position: absolute;
-  top: 28.4rem;
+  top: 29.4rem;
   left: 59.9rem;
   transform: rotateZ(-35deg);
   border-radius: 30px;
@@ -126,3 +126,7 @@ img {
 /* to rotate div: transform: rotate(#deg) */
 /* left: rotate: 30deg */
 /* right: rotate: z -30deg */
+
+.hidden {
+  display: none;
+}
