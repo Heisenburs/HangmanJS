@@ -15,6 +15,7 @@ body {
 .category-buttons {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30p;
 }
 
 #coding,
@@ -24,7 +25,7 @@ body {
   background-color: black;
   font-size: 20px;
   font-family: "Press Start 2P", cursive;
-  padding: 15px;
+  padding: 20px;
   border-radius: 25px;
   margin: 5px;
 }
@@ -35,8 +36,14 @@ body {
   background-image: url("media/bloody\ background.jpg");
 }
 
+#locations {
+  margin-bottom: 30px;
+}
+
 img {
   margin-right: 520px;
   padding: 50px;
   size: 200px;
 }
+
+/* HangMan */
