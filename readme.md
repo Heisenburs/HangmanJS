@@ -11,7 +11,7 @@
 ### Approach:
 
 - Pseudocode
-- Wireframe (canva)
+- Wireframe using ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 - JavaScript first! (Needed the logic to work before I worried about the design.)
 
 ### Live Site Link:
@@ -26,11 +26,11 @@ Next Update:
 
 ### Resources:
 
-#### HTML:
+#### ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 - https://stackoverflow.com/questions/65990379/how-to-make-a-button-inside-of-the-anchor-tag-clickable-in-react#:~:text=It%20works%20with%20both%20%3CLink,tag%20and%20it%20is%20clickable.
 
-#### CSS:
+#### ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 - https://blog.hubspot.com/website/center-text-in-css#:~:text=To%20center%20text%20in%20CSS%2C%20use%20the%20text%2Dalign%20property,case%2Dby%2Dcase%20basis.
 - https://stackoverflow.com/questions/10312857/blue-and-purple-default-links-how-to-remove
@@ -40,7 +40,7 @@ Next Update:
 - https://www.w3schools.com/cssref/playdemo.php?filename=playcss_rotate
 - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
 
-#### JS:
+#### ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 - https://www.w3schools.com/howto/howto_js_toggle_text.asp
 - https://herewecode.io/blog/get-random-element-array-javascript/

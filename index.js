@@ -1,8 +1,6 @@
 // START SCREEN => title , start , small 'coded by'
 const body = document.querySelector("body");
 
-
-
 // //! translate to html start screen
 // //* Title
 // const titleCard = document.createElement("h1");
@@ -167,26 +165,17 @@ for (let letter of letterChoices) {
 
   btn.onclick = () => {
     console.log(btn.innerText);
-     for (let i = 0; i < codingArr.length; i++) {
-    for (let j = 0; j < i.length; j++) {
-      if (char === j) {
-        console.log(char);
+    for (let i = 0; i < codingArr.length; i++) {
+      for (let j = 0; j < i.length; j++) {
+        if (char === j) {
+          console.log(char);
+        }
       }
-    }
-  }
-    //for Each element in the array (if statement)
-    //                   array[i]
-    if (btn.innerText ==  ) {
-      //replace [i] 
     }
   };
 }
 
-
-
-function check(char) {
- 
-}
+function check(char) {}
 //gets buttons to log their value
 
 //
