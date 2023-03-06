@@ -22,7 +22,13 @@
 
 ### Unresolved:
 
+- can't compare the value of the buttons to the missing keyword & appear
+- can't make the hangman appear when an incorrect button is guessed
+
 Next Update:
+
+- the alphabet buttons work and the missing keyword will appear
+- the hangman pieces will appear when an incorrect letter is guessed
 
 ### Resources:
 
