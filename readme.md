@@ -13,10 +13,13 @@
 - Pseudocode
 - Wireframe using ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 - JavaScript first! (Needed the logic to work before I worried about the design.)
+- Added in the HTML & CSS necessary to manipulate the DOM
+  -Added the remaining HTML & CSS to the Homepage and Game Page
+  -Deploy to Github ↓↓↓
 
-### Live Site Link:
+## Live Site Link:
 
-[Link] (https://heisenburs.github.io/HangmanJS/)
+### [Hangman Game](https://heisenburs.github.io/HangmanJS/)
 
 ### Installation Instructions:
 
@@ -25,7 +28,7 @@
 - can't compare the value of the buttons to the missing keyword & appear
 - can't make the hangman appear when an incorrect button is guessed
 
-Next Update:
+### Next Update:
 
 - the alphabet buttons work and the missing keyword will appear
 - the hangman pieces will appear when an incorrect letter is guessed
