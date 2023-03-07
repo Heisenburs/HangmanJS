@@ -27,6 +27,7 @@
 
 - can't compare the value of the buttons to the missing keyword & appear
 - can't make the hangman appear when an incorrect button is guessed
+  - These were definitely the biggest challenges.
 
 ### Next Update:
 
